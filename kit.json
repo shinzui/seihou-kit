@@ -1,5 +1,12 @@
 {
   "version": 1,
-  "skills": [],
+  "skills": [
+    {
+      "name": "seihou-scaffold-kit-skill",
+      "description": "Scaffold new Claude Code skills and agents for Seihou, following established conventions.",
+      "path": "skills/seihou-scaffold-kit-skill",
+      "files": ["SKILL.md"]
+    }
+  ],
   "agents": []
 }
