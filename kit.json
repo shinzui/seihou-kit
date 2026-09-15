@@ -9,7 +9,7 @@
     },
     {
       "name": "seihou-module-readme",
-      "description": "Generate or refresh a human-readable README.md for a Seihou module, documenting its version, variables, prompts, dependencies, exports, generated files, and usage.",
+      "description": "Write or refresh a short README.md for a Seihou module, recipe, blueprint, or prompt that points to its page in the registry's generated OKF documentation bundle.",
       "path": "skills/seihou-module-readme",
       "files": ["SKILL.md"]
     }
