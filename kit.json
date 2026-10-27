@@ -12,6 +12,12 @@
       "description": "Write or refresh a short README.md for a Seihou module, recipe, blueprint, or prompt that points to its page in the registry's generated OKF documentation bundle.",
       "path": "skills/seihou-module-readme",
       "files": ["SKILL.md"]
+    },
+    {
+      "name": "seihou-prune-orphan-modules",
+      "description": "Diagnose and clear stale orphan module records from a project's .seihou/manifest.json that pollute `seihou status` (phantom applied modules and spurious pending migrations from modules owning no files, links, or seeds). Use on old repos showing leftovers the CLI cannot retire.",
+      "path": "skills/seihou-prune-orphan-modules",
+      "files": ["SKILL.md"]
     }
   ],
   "agents": []
